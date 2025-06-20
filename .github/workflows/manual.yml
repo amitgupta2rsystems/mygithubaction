@@ -30,3 +30,6 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
+    # Download the file
+    - name Download file
+      run: curl -L "http://10.67.254.10/genbox-ng/rsi-security-builds/NTE3.6/nte-mv5/product-targets-nte-mv5-9.17.5.10-secP.bin"
