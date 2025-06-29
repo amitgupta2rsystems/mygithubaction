@@ -22,4 +22,4 @@ jobs:
           #pip install -r requirements.txt
 
       - name: Run Python script
-        run: python /home/ottdemo/script.py
+        run: python3 /home/ottdemo/script.py
