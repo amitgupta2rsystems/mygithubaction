@@ -25,4 +25,4 @@ jobs:
 
     - name: Run Python script
       run: |
-        python your_script.py  # Replace with your script name
+        python myworkflowscript.py  # Replace with your script name
