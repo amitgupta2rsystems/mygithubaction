@@ -14,8 +14,8 @@ def compute_md5sum(file_path):
     return md5_hash.hexdigest()
 
 # Replace with your actual file URL
-url = 'http://10.67.254.10/genbox-ng/rsi-security-builds/NTVBE_master/ntv-mv5/product-targets-ntv-mv5-18.23.22.8-secP.bin'
-local_filename = 'product-targets-ntv-mv5-18.23.22.8-secP.bin'
+url = 'http://10.67.254.10/genbox-ng/rsi-security-builds/NTVBE_master/ntv-mv5/product-targets-ntv-mv5-18.23.23.2-secP.bin'
+local_filename = 'product-targets-ntv-mv5-18.23.23.2-secP.bin'
 
 download_file(url, local_filename)
 md5sum = compute_md5sum(local_filename)
